@@ -1,0 +1,7 @@
+create DATABASE if not exists plan_plus ;
+CREATE TABLE IF NOT EXISTS TB_user
+(
+Id BIGINT(20) AUTO_INCREMENT PRIMARY KEY,
+First_Name varchar(50) NOT NULL,
+Last_Name varchar(50) NOT NULL
+); 
